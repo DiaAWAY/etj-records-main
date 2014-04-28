@@ -26,10 +26,14 @@ exports.index = function (req, res) {
     res.render('index', { title: '', albums: albums, promotionals: promotionals });
 };
 
-exports.about = function (req, res) {
-    res.render('about', { title: 'Who are you guys?'});
+exports.releases = function (req, res) {
+    res.render('releases', { title: 'RELEASES'});
 };
 
-exports.contact = function (req, res) {
-    res.render('contact', { title: 'How can I Contact you?'});
+exports.about = function (req, res) {
+    res.render('about', { title: 'ABOUT US'});
+};
+
+exports.story = function (req, res) {
+    res.render('story', {title: 'THE STORY'});
 };

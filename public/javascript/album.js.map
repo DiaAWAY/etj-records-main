@@ -1,0 +1,1 @@
+{"version":3,"file":"album.js","sourceRoot":"","sources":["album.ts"],"names":["Album","Album.constructor","Album.AlbumTest","test"],"mappings":"AAAA;IAAAA;;AAMCA,IAJGA,4BAAAA,UAAUA,IAAWA;QACjBE,OAAOA,QAAQA,GAAGA,IAAIA;IAC1BA,CAACA;IAELF,aAACA;AAADA,CAACA,IAAA;;AAED,SAAS,IAAI;IACTG,IAAIA,IAAIA,GAAGA,WAAWA;IACtBA,OAAOA,IAAIA;AACfA,CAACA;;AAGD,IAAI,GAAG,GAAG,IAAI,KAAK,CAAC,CAAC"}

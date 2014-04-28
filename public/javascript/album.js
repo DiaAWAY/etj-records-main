@@ -13,3 +13,4 @@ function test() {
 }
 
 var alb = new Album();
+//# sourceMappingURL=album.js.map

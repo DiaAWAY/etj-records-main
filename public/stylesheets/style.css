@@ -83,16 +83,20 @@ section {
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 #wrapper {
-  width: 80%;
-  padding-left: 100px;
-  padding-right: 100px;
-  max-width: 600px;
-  min-height: 20px;
-  text-align: left;
+  max-width: 760px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 20px;
+  text-align: left;
   background: #333333;
   border: 1px solid #333333;
+}
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
 }
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -106,7 +110,7 @@ p {
   font-size: small;
 }
 h1 {
-  color: #a5a5a5;
+  color: #ff5500;
   font-size: large;
   padding-bottom: 15px;
 }
@@ -130,12 +134,16 @@ header {
   background: #282828;
 }
 header nav {
-  width: 100%;
-  text-align: center;
+  background: #1d1b1c;
+  max-width: 800px;
+  text-align: left;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
   margin-left: auto;
   margin-right: auto;
-  font-weight: bold;
-  font-size: 80%;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 header nav ul {
   list-style: none;
@@ -148,7 +156,7 @@ header nav ul li {
 header nav ul li a {
   display: inline-block;
   padding: 5px 15px 6px;
-  color: orange;
+  color: #ff5500;
   text-decoration: none;
   position: relative;
   cursor: pointer;
@@ -156,9 +164,8 @@ header nav ul li a {
 header nav ul li a:hover {
   color: white;
 }
-header .wtf {
+header .menu-separator {
   background-color: #1d1b1c;
-  width: 80%;
   padding-left: 100px;
   padding-right: 100px;
   max-width: 600px;
@@ -174,14 +181,14 @@ header .wtf {
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 #paypal {
-  background: #222222;
+  background: #1d1b1c;
   width: 100%;
   text-align: center;
   vertical-align: middle;
   padding: 5px 0 6px;
 }
 #paypal > p {
-  color: orange;
+  color: #ff5500;
   font-weight: bold;
   font-size: 80%;
 }
@@ -189,7 +196,6 @@ header .wtf {
 /*# sourceMappingURL=style.css.map */
 #logo {
   background-color: #333333;
-  width: 80%;
   padding-left: 100px;
   padding-right: 100px;
   max-width: 600px;
@@ -207,7 +213,6 @@ header .wtf {
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 footer {
-  width: 80%;
   padding: 20px 100px 25px 100px;
   max-width: 600px;
   min-height: 20px;
@@ -225,7 +230,9 @@ footer p {
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 #contact {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 #contact p {
   color: #d2d2d2;
@@ -286,7 +293,7 @@ footer p {
   opacity: 1.0;
 }
 .album > div > p {
-  color: #ffa500;
+  color: #ff5500;
   font-weight: bold;
 }
 .album > div:hover > p {
@@ -380,14 +387,14 @@ footer p {
 }
 .promo > div > h1 {
   font-size: x-large;
-  color: #ffa500;
+  color: #ff5500;
 }
 .promo > div:hover > h1 {
   color: #ffffff;
 }
 .promo > div > h2 {
   font-size: large;
-  color: #ffa500;
+  color: #ff5500;
 }
 .promo > div:hover > h2 {
   color: #ffffff;

@@ -10,10 +10,19 @@ html(data-ng-app='')
         link(rel='stylesheet', href='/stylesheets/style.min.css')
     body
         header
-            div.wtf
+            div.menu-separator
             div#logo
                 img(src='/images/ETJ-Records-Splatter-Logo-orange.png')
-            div.wtf
+            nav
+                ul
+                    li
+                        a(href="/") HOME
+                    li
+                        a(href="/releases") RELEASES
+                    li
+                        a(href="/about") ABOUT US
+                    li
+                        a(href="/story") THE STORY
         block scripts
             script(type='text/javascript', src='/javascript/album.js')
             script(type='text/javascript', src='/javascript/angular-1.2.10/angular.min.js')
@@ -23,4 +32,4 @@ html(data-ng-app='')
     footer
         div
             p site design by sindre røbekk hagerup / logo design by peter richter
-            p © 2014 etj-records rev 2014.03.03-04
+            p © 2014 etj-records rev 2014.04.28-05
