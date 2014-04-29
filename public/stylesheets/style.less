@@ -87,6 +87,7 @@ section {
 @background: #282828;
 @wrapper-background: #333;
 @orange-highlight: rgba(255 ,85, 0, 1.0);
+//@link: #a5a5a5;
 @link: #a5a5a5;
 @header: #a5a5a5;
 //@header: @orange-highlight;
@@ -141,12 +142,18 @@ body {
 }
 
 a {
-    color: @link;
+    color: @orange-highlight;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 p {
     color: @paragraph;
     font-size: small;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
 }
 
 h1 {
@@ -432,11 +439,6 @@ footer > div {
         color: white;
         border-bottom: 10px;
         margin-bottom: 10px;
-    }
-
-    #promotionals .promo-text > a {
-        color: @menu-link-colour;
-        text-decoration: none;
     }
 
     #promotionals img {

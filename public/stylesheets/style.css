@@ -103,11 +103,16 @@ body {
   background: #282828;
 }
 a {
-  color: #a5a5a5;
+  color: #ff5500;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
 }
 p {
   color: #c5c5c5;
   font-size: small;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
 }
 h1 {
   color: #ff5500;
@@ -335,10 +340,6 @@ footer p {
   color: white;
   border-bottom: 10px;
   margin-bottom: 10px;
-}
-#promotionals .promo-text > a {
-  color: #ff5500;
-  text-decoration: none;
 }
 #promotionals img {
   width: 100%;
