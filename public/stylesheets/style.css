@@ -123,6 +123,10 @@ h1 {
   font-size: large;
   padding-bottom: 15px;
 }
+h1.home {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 h2 {
   color: #a5a5a5;
   font-size: medium;
