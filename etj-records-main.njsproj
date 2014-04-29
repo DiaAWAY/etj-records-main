@@ -977,6 +977,7 @@
     <Content Include="node_modules\stylus\package.json" />
     <Content Include="node_modules\stylus\Readme.md" />
     <Content Include="package.json" />
+    <Content Include="public\images\WTWSOON.jpg" />
     <Content Include="README.md" />
     <Compile Include="etj-records-main.js" />
     <Content Include=".git\ms-persist.xml" />
